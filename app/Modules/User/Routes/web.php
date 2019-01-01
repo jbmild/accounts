@@ -16,3 +16,5 @@ Route::group(['prefix' => 'user'], function () {
         dd('This is the User module index page. Build something great!');
     });
 });
+
+Route::resource('users', 'UserController');
