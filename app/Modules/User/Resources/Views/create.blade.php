@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.backend.main')
 
 @section('content')
     {!! Form::open([ 'route' => 'users.store', 'method' => 'POST']) !!}

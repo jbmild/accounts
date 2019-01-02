@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.backend.main')
 
 @section('content')
     <h4 class="text-center">Editar Usuario: {{ $user->name  }}</h4>
